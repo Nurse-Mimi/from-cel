@@ -1,1 +1,2 @@
 # from-cel
+This repository exists so that I can do at least six new tasks every day. Its folders will be named according to the date those tasks were completed. This will enerble me to stay motivated as well as to help me keep track of what I have achieved so far. I don't plan on falling short of my expectations. Instead I hope i excede them.
