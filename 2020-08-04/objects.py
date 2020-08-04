@@ -1,0 +1,9 @@
+def add_numbers(a, b):
+    if not (isinstance(a, int) and isinstance(b, int)):
+        raise TypeError("Inputs must be integers")
+    return a + b
+
+print(add_numbers(10, 20))
+print(add_numbers(10, 7))
+print(add_numbers(10, 20000000000000))
+print(add_numbers(10, 2.0))
