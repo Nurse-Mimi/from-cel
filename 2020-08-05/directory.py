@@ -1,7 +1,8 @@
-# Unfinished. ran into some problems. WILL Research and come back to complete.
+import os, fnmatch
 
-from os import listdir
-from os.path import isfile, join
-files_list = [f for f in listdir('/home/') if isfile(join('/home/', f))]
+files_list = os.listdir('.')
+pattern = "*.py"
 
-print(files_list)
+for entry in files_list:
+    if fnmatch.fnmatch(entry, pattern):
+        print(entry)
