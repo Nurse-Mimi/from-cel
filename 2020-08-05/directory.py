@@ -1,8 +1,9 @@
-import os, fnmatch
+import os
 
-files_list = os.listdir('.')
-pattern = "*.py"
+folder_path ='C\Users\HP\Desktop\from-cel'
 
-for entry in files_list:
-    if fnmatch.fnmatch(entry, pattern):
-        print(entry)
+def listdir(dir):
+    fileNames = os.listdir(dir)
+    for fileName in fileNames:
+        print("File name: " + fileName)
+        print('Folder Path: ' + os.path.abspath(os.path.join(dir, fileName)), sep='\n')
